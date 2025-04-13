@@ -194,7 +194,7 @@ def main():
     ]
 
     # Configure GPUs
-    num_gpus = 4
+    num_gpus = 1
     gpu_devices = [f"cuda:{i}" for i in range(num_gpus)]
 
     # Spawn one process per model
